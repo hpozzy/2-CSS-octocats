@@ -1,0 +1,40 @@
+.octodex {
+  display: flex;
+  justify-content: space-evenly;
+}
+.octocat {
+  width: 50%;
+  list-style: none;
+}
+.octocat img {
+  width: 75%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.authors img {
+  width: 15%;
+  align-self: flex-end;
+}
+.image-footer {
+  justify-content: space-between;
+  display: flex;
+}
+.image-number {
+  align-self: flex-start;
+}
+.image-caption {
+  display: flex;
+  align-self: center;
+}
+
+.authors li {
+  list-style: none;
+}
+.image-number::before {
+  content: "#";
+}
+
+.octocat div {
+  justify-content: space-between;
+  display: flex;
+}
