@@ -27,8 +27,6 @@ ul {
 .image-footer {
   justify-content: space-between;
   display: flex;
-
-  border: 1px solid red;
 }
 .image-number {
   display: flex;
